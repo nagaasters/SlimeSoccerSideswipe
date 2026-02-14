@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Manual utility classes - no Tailwind needed */
+.flex { display: flex; }
 
 /* Tailwind alternative - inline utility classes */
 .flex { display: flex; }
