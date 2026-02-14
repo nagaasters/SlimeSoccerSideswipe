@@ -36,10 +36,10 @@ const EXPLOSION_COLORS = [
 ];
 
 const AI_CFG = {
-  easy:       { spd:0.52, jAcc:0.18, gDist:28, dRange:170, jCD:48 },
-  medium:     { spd:0.76, jAcc:0.48, gDist:40, dRange:270, jCD:24 },
-  hard:       { spd:0.94, jAcc:0.74, gDist:50, dRange:370, jCD:14 },
-  impossible: { spd:1.06, jAcc:0.92, gDist:55, dRange:450, jCD:7  },
+  easy:       { spd:0.35, jAcc:0.08, gDist:22, dRange:140, jCD:60 },
+  medium:     { spd:0.55, jAcc:0.28, gDist:32, dRange:220, jCD:35 },
+  hard:       { spd:0.75, jAcc:0.52, gDist:42, dRange:310, jCD:20 },
+  impossible: { spd:0.92, jAcc:0.76, gDist:50, dRange:400, jCD:10 },
 };
 
 const mkSlime = x => ({ x, y:GROUND_Y, vx:0, vy:0, onGround:true, hasBall:false, grabFrames:0, grabCooldown:0, goalLineTime:0, penaltyGiven:false, penaltyImmunity:60, targetX:x, decCD:0, lastBallY:0, stuckC:0 });
