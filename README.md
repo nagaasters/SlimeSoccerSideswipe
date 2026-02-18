@@ -1,3 +1,4 @@
+<img width="1024" height="1024" alt="slime-soccer-pfp-1024x1024" src="https://github.com/user-attachments/assets/69314c32-3733-4fbb-8124-715c35e7736f" />
 # 🎮 Slime Soccer Sideswipe
 
 A 2D soccer game inspired by Rocket League Sideswipe, featuring customizable slime characters, goal explosions, and comprehensive stats tracking!
